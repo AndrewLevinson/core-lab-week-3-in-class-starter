@@ -14,6 +14,23 @@
   font-display: swap;
 }
 
+/* css reset */
+/* Andrew will explain what this is and why you want it next class */
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /* add styling here */
 .container {
   width: 100%;
